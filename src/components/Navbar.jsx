@@ -29,7 +29,7 @@ const Navbar = () => {
           <FaDownload />
         </a>
         <a
-          href="https://www.linkedin.com/in/irshadahmeds/"
+          href="https://www.linkedin.com/in/iaschowrai/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn Profile"
