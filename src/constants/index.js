@@ -20,23 +20,21 @@ export const EXPERIENCES = [
     year: "Mar/2024 - Present",
     role: "Software Engineer",
     company: "Wavesoft Solutions Inc.",
-    description: `Developed a REST API to manage 100,000+ insurance files with UUIDs and MongoDB, ensuring data integrity via cascading deletions. Optimized fault tolerance with a custom RestClient and Resilience4j, reducing memory usage by 40% using ConcurrentHashMap and Redis caching.`, 
-    //Worked closely with stakeholders to define project requirements and deliver full-stack solutions within tight deadlines. Developed user-friendly frontend components using React.js, improving UI performance and enhancing client engagement. Collaborated with cross-functional teams, implementing responsive designs and integrating RESTful APIs with 
-    //MongoDB backends. Architected and developed multi-threaded Spring Boot solutions for handling high-volume insurance data, optimizing storage and retrieval in AWS S3 and RDS MySQL. Spearheaded automation of real-time data processing using AWS Lambda and EventBridge, improving system efficiency by 30% and handling over 5000 daily events. Led integration of WireMock for vendor API testing, reducing bugs by 15% and enhancing testing reliability.`,
+    description: `Designed and developed a high-performance microservice using Spring Boot and Kafka to handle priority-based events, reducing system failures by 40% through retry mechanisms and Dead Letter Queues. I optimized processing efficiency by implementing multithreading with Java concurrency APIs. For seamless database interactions and notification tracking, I integrated Spring JPA/Hibernate, achieving 99.9% delivery. Additionally, I managed CI/CD pipelines with Jenkins, GitHub, Docker, and Kubernetes on AWS, reducing deployment time by 70%. To enhance system monitoring, I integrated Grafana and Prometheus, enabling real-time health tracking and metrics analysis for improved observability and performance optimization.`,
     technologies: ["React.js", "Tailwind", "JavaScript", "Java", "Spring Boot", "MongoDB", "AWS", "AWS Lambda", "S3", "WireMock", "MySQL", "RESTful APIs"]
   },
   {
     year: "May/2021 - Dec/2021",
     role: "Senior Consultant",
     company: "Ernst & Young LLP",
-    description: `Performed root cause analysis improving user experience by 10%. Developed a React-Redux dashboard with GraphQL for 50% faster data retrieval, optimized a Kafka-Spring Batch pipeline, and achieved 90% test coverage using WireMock.`,
+    description: `As a Senior Consultant at Ernst & Young LLP (Microsoft), I developed a React-based dashboard using Redux, React Router, and Axios, optimizing performance for 10,000+ internal users with lazy loading and caching. I secured REST APIs using Spring Security, implementing authentication, authorization, and protection against SQL Injection and CSRF attacks. I built business logic to track shipment transit times across multiple time zones. System reliability was improved using Resilience4j, with real-time monitoring via Actuator and Micrometer. I integrated Redis for caching and optimized performance using the Executor framework, achieving 90% test coverage through rigorous TDD with JUnit, Mockito, and WireMock.`,
     technologies: ["React.js", "Java", "Spring Boot", "PostgreSQL", "Apache Kafka", "Avro", "Schema Registry", "Java Date and Time API", "Batch Processing", "Parallel Streaming"]
   },
   {
     year: "Sep/2020 - May/2021",
     role: "Senior Developer",
     company: "JK Technosoft Ltd",
-    description: `Collaborated on integrating RESTful APIs into a React application, boosting performance by 20%. Implemented Spring Batch for optimized data processing and reduced SQL query execution time from 45 minutes to 2 minutes.`,
+    description: `I developed a proprietary algorithm to resolve data inconsistency issues, eliminating 99% of data integrity errors and enhancing reliability for critical financial transactions. I designed a data processing pipeline for efficient batch processing, transformation, and storage of records while optimizing JPA/Hibernate interactions, significantly improving MySQL database performance. Additionally, I created mock web services using REST architecture and Java Spring Boot to reduce dependency on vendor APIs for testing, leading to a 5% reduction in bugs. These enhancements ensured data accuracy, streamlined processing, and improved system stability for high-transaction financial applications.`,
     technologies: ["React.js", "Java", "Spring Boot", "Azure SQLDB", "Spring Batch", "Java Beans", "Data Visualization", "Pagination", "Filtering", "Sorting"]
 
   },
@@ -44,9 +42,8 @@ export const EXPERIENCES = [
     year: "June/2014 - Dec/2019",
     role: "Operation Analyst",
     company: "Victory Packaging Industry",
-    description: `Implemented financial transaction tracking in a material management system, improving data accuracy. Optimized Java performance by fine-tuning garbage collection, achieving 30% improvement, and attained 95% test coverage, reducing bugs by 15%.`,
-    technologies: ["REST APIs", "Java","SQL", "MSSQL RDS", "Database Sharding", "Automated Data Processing", "Batch Insertion", "Performance Monitoring", "SQL Query Optimization"]
-  },
+    description: `As a Software Developer at Victory Packaging, I collaborated with developers to enhance system improvements, business logic, reports, schema design, and batch processing, ensuring seamless project execution throughout the Software Development Life Cycle. I refactored legacy code and optimized SQL queries using indexing and stored procedures, improving response time by 40%. Additionally, I reduced post-release defects by 40% through comprehensive debugging, rigorous testing, and thorough documentation. These efforts enhanced system performance, reliability, and maintainability, contributing to the overall efficiency of the application and business processes.`,
+    technologies: ["REST APIs", "Java","SQL", "MSSQL RDS", "Database Sharding", "Automated Data Processing", "Batch Insertion", "Performance Monitoring", "SQL Query Optimization"]},
 ];
 
 export const PROJECTS = [
