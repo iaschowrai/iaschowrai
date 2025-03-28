@@ -63,7 +63,7 @@ const Sidebar = () => {
             </div>
             <div className="contact-info">
               <p className="contact-title">Phone</p>
-              <a href="+17746969620" className="contact-link">+1 (774) 696-9620</a>
+              <a href="" className="contact-link">+1 (774) 696-9620</a>
             </div>
           </li>
           <li className="contact-item">
