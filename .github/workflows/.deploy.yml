@@ -1,0 +1,61 @@
+name: Deploy
+
+# Define the events that trigger the workflow
+on:
+  push:
+    branches:
+      - main # Run this workflow on push events to the 'main' branch
+
+jobs:
+  # Define the 'build' job
+  build:
+    name: Build
+    runs-on: ubuntu-latest # Use the latest Ubuntu runner
+
+    steps:
+      # Step 1: Checkout code from the repository
+      - name: Checkout repo
+        uses: actions/checkout@v4 # Checkout the code from the repository
+
+      # Step 2: Set up Node.js
+      - name: Setup Node
+        uses: actions/setup-node@v4 # Set up Node.js environment
+        with:
+          node-version: '20' # Use Node.js version 20
+
+      # Step 3: Install project dependencies
+      - name: Install dependencies
+        run: npm install # Run npm install to install dependencies defined in package.json
+
+      # Step 4: Build the project
+      - name: Build project
+        run: npm run build # Run the build script defined in package.json to create the production build
+
+      # Step 5: Upload build artifacts
+      - name: Upload production-ready build files
+        uses: actions/upload-artifact@v4 # Upload artifacts for use in later jobs
+        with:
+          name: production-files # Name of the artifact
+          path: ./dist # Path to the build output directory
+
+  # Define the 'deploy' job
+  deploy:
+    name: Deploy
+    needs: build # This job depends on the successful completion of the 'build' job
+    runs-on: ubuntu-latest # Use the latest Ubuntu runner
+
+    steps:
+      # Step 1: Download the build artifact
+      - name: Download artifact
+        uses: actions/download-artifact@v4 # Download artifacts from previous jobs
+        with:
+          name: production-files # Name of the artifact to download
+          path: ./dist # Path where the artifact will be downloaded
+
+      # Step 2: Deploy the build to GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4 # Deploy the build to GitHub Pages
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }} # GitHub token for authentication
+          publish_dir: ./dist # Directory containing the files to publish
+          cname: www.iaschowrai.com # Custom domain for GitHub Pages

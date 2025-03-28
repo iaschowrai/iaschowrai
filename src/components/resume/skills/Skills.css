@@ -1,0 +1,84 @@
+/**
+ * skills 
+ */
+
+.skills-title {
+  margin-bottom: 20px;
+}
+
+.skills-list {
+  padding: 20px;
+}
+/********************************/
+
+.title {
+  color: var(--white-1);
+  background: var(--onyx);
+  font-size: var(--fs-8);
+  font-weight: var(--fw-300);
+  width: max-content;
+  padding: 3px 12px;
+  border-radius: 8px;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap; /* Wraps content if it overflows */
+  gap: 10px; /* Adjusts spacing between skills */
+}
+
+.skill-badge {
+  background: var(--onyx);
+  color: var(--white-1);
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: var(--fs-8);
+  font-weight: var(--fw-300);
+  white-space: nowrap; /* Prevents breaking words */
+}
+.skill-badge:hover {
+  color:var(--vegas-gold); /* Changes text color to gold */
+  /* background: rgba(255, 215, 0, 0.2);  */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+}
+/********************************/
+
+.skills-item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.skill .title-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 8px;
+}
+
+.skill .title-wrapper data {
+  color: var(--light-gray);
+  font-size: var(--fs-7);
+  font-weight: var(--fw-300);
+}
+
+.skill-progress-bg {
+  background: var(--jet);
+  width: 100%;
+  height: 8px;
+  border-radius: 10px;
+}
+
+.skill-progress-fill {
+  background: var(--text-gradient-yellow);
+  height: 100%;
+  border-radius: inherit;
+}
+
+
+@media (min-width: 580px) {
+
+
+  .skills-item:not(:last-child) {
+    margin-bottom: 25px;
+  }
+
+}

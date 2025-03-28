@@ -1,0 +1,19 @@
+
+article {
+    background: var(--eerie-black-2);
+    border: 1px solid var(--jet);
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: var(--shadow-1);
+    z-index: 1;
+    display: none;
+}
+
+article.active {
+    display: block;
+    animation: fade 0.5s ease backwards;
+}
+
+.article-title { margin-bottom: 30px; }
+
+
