@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { IonIcon } from '@ionic/react';
-import { phonePortraitOutline, mailOutline, logoLinkedin, logoGithub, downloadOutline } from "ionicons/icons";
+import { phonePortraitOutline, mailOutline, logoLinkedin, logoGithub, downloadOutline, chevronUp, chevronDown } from "ionicons/icons";
 import './Sidebar.css';
 import ProfilePic from '../../assets/profilePicture/me.png';
 
@@ -29,7 +29,8 @@ const Sidebar = () => {
         </div>
         <button className='info_more-btn' onClick={handleToggleContacts}>
           <span>{isContactsVisible ? 'Hide Contacts' : 'Show Contacts'}</span>
-          <ion-icon name={isContactsVisible ? "chevron-up" : "chevron-down"}></ion-icon>
+          <IonIcon icon={isContactsVisible ? chevronUp : chevronDown} />
+          {/* <ion-icon name={isContactsVisible ? "chevron-up" : "chevron-down"}></ion-icon> */}
         </button>
       </div>
       <div className='sidebar-info_more'>
