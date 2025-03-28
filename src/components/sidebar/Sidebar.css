@@ -339,6 +339,9 @@
         width: 950px;
         box-shadow: var(--shadow-5);
     }
+    img:hover {
+        transform: scale(1.2); /* Zoom in by 1.2 times */
+      }
 
 }
 
@@ -369,6 +372,9 @@
         clip-path: circle();
 
     }
+    img:hover {
+        transform: scale(1.2); /* Zoom in by 1.2 times */
+      }
 
     .info-content .name {
         white-space: nowrap;
