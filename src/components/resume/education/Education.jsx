@@ -1,12 +1,15 @@
 import React from 'react'
 import './Education.css';
+import { IonIcon } from '@ionic/react';
+
+import { bookOutline } from 'ionicons/icons';
 
 const Education = () => {
   return (
     <section className="timeline">
       <div className="title-wrapper">
         <div className="icon-box"> 
-          <ion-icon name="book-outline"></ion-icon>
+        <IonIcon icon={bookOutline} />        
         </div>
         <h3 className="h3">Education</h3>
       </div>

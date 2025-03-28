@@ -1,5 +1,8 @@
 import React from 'react'
 import { EXPERIENCES } from '../../../constants/index';
+import { IonIcon } from '@ionic/react';
+
+import { bookOutline } from 'ionicons/icons';
 
 
 const Experience = () => {
@@ -8,7 +11,7 @@ const Experience = () => {
 
       <div className="title-wrapper">
         <div className="icon-box">
-          <ion-icon name="book-outline"></ion-icon>
+          <IonIcon icon={bookOutline} />
         </div>
 
         <h3 className="h3">Experience</h3>
