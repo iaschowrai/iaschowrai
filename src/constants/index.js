@@ -14,7 +14,9 @@ export const HERO_CONTENT =  {
   Whether I'm architecting a new system or optimizing an existing one, I always look for ways to push the boundaries of what’s possible, ensuring that every solution is not just functional, but truly impactful.`
   }
 
-
+export const RESUMELINK = {
+  resume : "https://drive.google.com/uc?export=download&id=1cs1cZdcYGvZU9Rc51KJFZ_RtLLamx6vS"
+};
 
 export const EXPERIENCES = [
   {

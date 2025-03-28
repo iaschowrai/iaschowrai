@@ -3,6 +3,8 @@ import { IonIcon } from '@ionic/react';
 import { phonePortraitOutline, mailOutline, logoLinkedin, logoGithub, downloadOutline, chevronUp, chevronDown } from "ionicons/icons";
 import './Sidebar.css';
 import ProfilePic from '../../assets/profilePicture/me.png';
+import { RESUMELINK } from '../../constants/index';
+
 
 
 const Sidebar = () => {
@@ -44,7 +46,7 @@ const Sidebar = () => {
             <div className="contact-info">
               {/* <p className="">Download Resume</p> */}
               <a
-                href="https://drive.google.com/uc?export=download&id=1cs1cZdcYGvZU9Rc51KJFZ_RtLLamx6vS"
+                href={RESUMELINK.resume}
                 className="resume-title"
                 download
                 target="_blank"
