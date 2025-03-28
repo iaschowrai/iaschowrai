@@ -15,7 +15,9 @@ export const HERO_CONTENT =  {
   }
 
 export const RESUMELINK = {
-  resume : "https://drive.google.com/uc?export=download&id=1cs1cZdcYGvZU9Rc51KJFZ_RtLLamx6vS"
+  resume : "https://drive.google.com/uc?export=download&id=12ztEIk-INYncbGhAyt4FsLpYFLrLRuls"
+  // resume : "https://drive.google.com/file/d/12ztEIk-INYncbGhAyt4FsLpYFLrLRuls/view?usp=sharing"
+
 };
 
 export const EXPERIENCES = [
