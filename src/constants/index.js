@@ -88,7 +88,7 @@ export const PROJECTS = [
 
 export const CONTACT = {
   name: "Irshad Ahmed Schowrai",
-  address: "44 Maywood Street, Apt -2, Worcester, Massachusetts, United States 01603. ",
+  address: "1221 E Apache Blvd, Apt 2057, Tempe, Arizona, United States 85281. ",
   phoneNo: "+1 774 696 9620",
   email: "irshad_ahmeds@yahoo.com",
   linkedIn : "https://www.linkedin.com/in/iaschowrai/",
