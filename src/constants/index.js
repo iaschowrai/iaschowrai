@@ -16,8 +16,6 @@ export const HERO_CONTENT =  {
 
 export const RESUMELINK = {
   resume : "https://drive.google.com/file/d/17UlHyQ06NX8Zlt1vQI07buBUrZvEAi7X/view?usp=sharing"
-  // resume : "https://drive.google.com/file/d/12ztEIk-INYncbGhAyt4FsLpYFLrLRuls/view?usp=sharing"
-
 };
 
 export const EXPERIENCES = [
@@ -25,30 +23,30 @@ export const EXPERIENCES = [
     year: "Mar/2024 - Present",
     role: "Software Engineer",
     company: "Wavesoft Solutions Inc.",
-    description: `Designed and developed a high-performance microservice using Spring Boot and Kafka to handle priority-based events, reducing system failures by 40% through retry mechanisms and Dead Letter Queues. I optimized processing efficiency by implementing multithreading with Java concurrency APIs. For seamless database interactions and notification tracking, I integrated Spring JPA/Hibernate, achieving 99.9% delivery. Additionally, I managed CI/CD pipelines with Jenkins, GitHub, Docker, and Kubernetes on AWS, reducing deployment time by 70%. To enhance system monitoring, I integrated Grafana and Prometheus, enabling real-time health tracking and metrics analysis for improved observability and performance optimization.`,
-    technologies: ["React.js", "Tailwind", "JavaScript", "Java", "Spring Boot", "MongoDB", "AWS", "AWS Lambda", "S3", "WireMock", "MySQL", "RESTful APIs"]
+    description: `Led the design and development of Marketplace Seller Center Pricing microservices using Java 17, Spring Boot, and SOLID principles to build scalable, fault-tolerant distributed systems. Optimized GraphQL APIs integrated with Elasticsearch and MySQL (JPA/Hibernate), reducing query execution time by 60% and achieving P99 latency of ~40ms under 3,000+ RPM. Revamped APIs using Spring WebFlux with reactive retry, cutting downstream failures by 60% and improving system resilience. Automated CI/CD pipelines using GitHub Actions, Jenkins, Docker, and Azure Kubernetes Service for seamless deployments. Implemented observability with Prometheus, Grafana, and Spring Boot Actuator for real-time monitoring, and achieved 100% test coverage with JUnit, Mockito, and Cucumber to ensure code reliability and maintainability.`,
+    technologies: ["Java", "Spring Boot", "RESTful APIs", "GraphQL API", "Elastic Search", "Kafka", "MySQL", "Azure/GCP", "Junit", "Mockito", "Cucumber", "Prometheus", "Grafana", "Kubernetes" ]
   },
   {
     year: "May/2021 - Dec/2021",
     role: "Senior Consultant",
     company: "Ernst & Young LLP",
-    description: `As a Senior Consultant at Ernst & Young LLP (Microsoft), I developed a React-based dashboard using Redux, React Router, and Axios, optimizing performance for 10,000+ internal users with lazy loading and caching. I secured REST APIs using Spring Security, implementing authentication, authorization, and protection against SQL Injection and CSRF attacks. I built business logic to track shipment transit times across multiple time zones. System reliability was improved using Resilience4j, with real-time monitoring via Actuator and Micrometer. I integrated Redis for caching and optimized performance using the Executor framework, achieving 90% test coverage through rigorous TDD with JUnit, Mockito, and WireMock.`,
-    technologies: ["React.js", "Java", "Spring Boot", "PostgreSQL", "Apache Kafka", "Avro", "Schema Registry", "Java Date and Time API", "Batch Processing", "Parallel Streaming"]
+    description: `As a Senior Consultant at Ernst & Young LLP, I led the end-to-end design and delivery of a full-stack shipment tracking platform using Java 17, Spring Boot, and ReactJS on a distributed microservices architecture, empowering logistics teams with real-time visibility and data-driven decision-making. Partnered with product owners to translate business requirements into scalable technical solutions, enhancing the React-based dashboard with Redux and hooks for responsive, timezone-aware analytics. Designed and secured REST APIs with Spring Security and JWT authentication, improving data integrity and cross-service communication. Modernized the backend by adopting reactive WebClient, reducing API latency by 40%, and integrated Redis caching to boost response speed by 80%. Optimized PostgreSQL operations using JPA/Hibernate for faster data access and reporting. Drove CI/CD automation through Azure DevOps and Jenkins for containerized deployments on Kubernetes, ensuring faster release cycles and zero downtime. Established observability with Prometheus and Grafana for proactive monitoring and system reliability. Championed engineering excellence through code reviews, mentoring, and achieving 98% automated test coverage with JUnit, Mockito, and Jest, ensuring maintainable, business-aligned software delivery.`,
+    technologies: ["React.js", "Java", "Spring Boot", "PostgreSQL", "Apache Kafka", "Avro", "Schema Registry","Time Intelligence", "StreamAPI"]
   },
   {
     year: "Sep/2020 - May/2021",
     role: "Senior Developer",
     company: "JK Technosoft Ltd",
     description: `I developed a proprietary algorithm to resolve data inconsistency issues, eliminating 99% of data integrity errors and enhancing reliability for critical financial transactions. I designed a data processing pipeline for efficient batch processing, transformation, and storage of records while optimizing JPA/Hibernate interactions, significantly improving MySQL database performance. Additionally, I created mock web services using REST architecture and Java Spring Boot to reduce dependency on vendor APIs for testing, leading to a 5% reduction in bugs. These enhancements ensured data accuracy, streamlined processing, and improved system stability for high-transaction financial applications.`,
-    technologies: ["React.js", "Java", "Spring Boot", "Azure SQLDB", "Spring Batch", "Java Beans", "Data Visualization", "Pagination", "Filtering", "Sorting"]
+    technologies: ["React.js", "Java", "Spring Boot", "AWS", "Spring Batch", "Java Beans", "Data Visualization", "Pagination", "Filtering", "Sorting"]
 
   },
   {
     year: "June/2014 - Dec/2019",
     role: "Software Developer",
     company: "Victory Packaging",
-    description: `As a Software Developer at Victory Packaging, I collaborated with developers to enhance system improvements, business logic, reports, schema design, and batch processing, ensuring seamless project execution throughout the Software Development Life Cycle. I refactored legacy code and optimized SQL queries using indexing and stored procedures, improving response time by 40%. Additionally, I reduced post-release defects by 40% through comprehensive debugging, rigorous testing, and thorough documentation. These efforts enhanced system performance, reliability, and maintainability, contributing to the overall efficiency of the application and business processes.`,
-    technologies: ["REST APIs", "Java","SQL", "MSSQL RDS", "Database Sharding", "Automated Data Processing", "Batch Insertion", "Performance Monitoring", "SQL Query Optimization"]},
+    description: `Collaborated with developers to enhance system improvements, business logic, reports, schema design, and batch processing, ensuring seamless project execution throughout the Software Development Life Cycle. I refactored legacy code and optimized SQL queries using indexing and stored procedures, improving response time by 40%. Additionally, I reduced post-release defects by 40% through comprehensive debugging, rigorous testing, and thorough documentation. These efforts enhanced system performance, reliability, and maintainability, contributing to the overall efficiency of the application and business processes.`,
+    technologies: ["REST APIs", "Java","SQL", "MSSQL RDS", "Database Sharding", "Automated Data Processing", "Batch Processing", "Performance Monitoring", "SQL Query Optimization"]},
 ];
 
 export const PROJECTS = [
