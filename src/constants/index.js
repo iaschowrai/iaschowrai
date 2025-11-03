@@ -9,7 +9,7 @@ export const HERO_CONTENT =  {
   My journey in tech started with a curiosity to understand how things work behind the scenes, and that curiosity turned into a passion for building efficient, scalable, and reliable solutions. 
   I love the challenge of breaking down large, abstract problems and transforming them into something tangible, useful, and efficient.`,
   
-  p2: `Over the years, I’ve had the opportunity to work on a variety of projects — from backend-heavy systems to full-stack solutions, each one offering a unique set of challenges. 
+  p2: `Over the years, I’ve had the opportunity to work on a variety of projects from backend-heavy systems to full-stack solutions, each one offering a unique set of challenges. 
   What excites me most is the ability to collaborate with others and see an idea evolve into a fully-fledged product that drives real business value. 
   Whether I'm architecting a new system or optimizing an existing one, I always look for ways to push the boundaries of what’s possible, ensuring that every solution is not just functional, but truly impactful.`
   }
