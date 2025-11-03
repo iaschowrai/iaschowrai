@@ -32,7 +32,7 @@ const Navbar = () => {
             className={`navbar-link ${activeLink === '/resume' ? 'active' : ''}`}
             onClick={() => setActiveLink('/resume')}
           >
-            Resume
+            Work Experinece
           </Link>
         </li>
       </ul>
