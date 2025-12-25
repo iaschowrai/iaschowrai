@@ -18,7 +18,6 @@ const Skills = () => {
                     </React.Fragment>
                 ))}
             </ul> */}
-
             {/* <div className="skills-container">
                 {TECHNOLOGIES.map((experience, index) => (
                     <React.Fragment key={index}>
