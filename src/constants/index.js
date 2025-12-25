@@ -23,21 +23,44 @@ export const EXPERIENCES = [
     year: "Mar/2024 - Present",
     role: "Software Engineer",
     company: "Wavesoft Solutions Inc.",
-    description: `Led the design and development of Marketplace Seller Center Pricing microservices using Java 17, Spring Boot, and SOLID principles to build scalable, fault-tolerant distributed systems. Optimized GraphQL APIs integrated with Elasticsearch and MySQL (JPA/Hibernate), reducing query execution time by 60% and achieving P99 latency of ~40ms under 3,000+ RPM. Revamped APIs using Spring WebFlux with reactive retry, cutting downstream failures by 60% and improving system resilience. Automated CI/CD pipelines using GitHub Actions, Jenkins, Docker, and Azure Kubernetes Service for seamless deployments. Implemented observability with Prometheus, Grafana, and Spring Boot Actuator for real-time monitoring, and achieved 100% test coverage with JUnit, Mockito, and Cucumber to ensure code reliability and maintainability.`,
+    // description: `Led the design and development of Marketplace Seller Center Pricing microservices using Java 17, Spring Boot, and SOLID principles to build scalable, fault-tolerant distributed systems. Optimized GraphQL APIs integrated with Elasticsearch and MySQL (JPA/Hibernate), reducing query execution time by 60% and achieving P99 latency of ~40ms under 3,000+ RPM. Revamped APIs using Spring WebFlux with reactive retry, cutting downstream failures by 60% and improving system resilience. Automated CI/CD pipelines using GitHub Actions, Jenkins, Docker, and Azure Kubernetes Service for seamless deployments. Implemented observability with Prometheus, Grafana, and Spring Boot Actuator for real-time monitoring, and achieved 100% test coverage with JUnit, Mockito, and Cucumber to ensure code reliability and maintainability.`,
+    description: [
+      "Designed and developed high-availability Marketplace Pricing & Incentive microservices using Java 17 and Spring Boot, supporting ~300K daily active users.",
+      "Built and optimized GraphQL and REST APIs aggregating data from Elasticsearch and downstream services, achieving ~40ms P99 latency under high load.",
+      "Improved reliability by implementing WebClient timeouts, controlled retries, and reactive processing, reducing worst-case latency from seconds to milliseconds.",
+      "Deployed containerized services using Docker and Kubernetes with CI/CD pipelines, ensuring seamless releases.",
+      "Implemented observability with Prometheus, Grafana, and Spring Boot Actuator for monitoring and proactive incident response.",
+      "Participated in code reviews, mentored junior engineers, and maintained high test coverage using JUnit, Mockito, and Cucumber."
+    ],
     technologies: ["Java", "Spring Boot", "RESTful APIs", "GraphQL API", "Elastic Search", "Kafka", "MySQL", "Azure/GCP", "Junit", "Mockito", "Cucumber", "Prometheus", "Grafana", "Kubernetes" ]
   },
   {
     year: "May/2021 - Dec/2021",
     role: "Senior Consultant",
     company: "Ernst & Young LLP",
-    description: `As a Senior Consultant at Ernst & Young LLP, I led the end-to-end design and delivery of a full-stack shipment tracking platform using Java 17, Spring Boot, and ReactJS on a distributed microservices architecture, empowering logistics teams with real-time visibility and data-driven decision-making. Partnered with product owners to translate business requirements into scalable technical solutions, enhancing the React-based dashboard with Redux and hooks for responsive, timezone-aware analytics. Designed and secured REST APIs with Spring Security and JWT authentication, improving data integrity and cross-service communication. Modernized the backend by adopting reactive WebClient, reducing API latency by 40%, and integrated Redis caching to boost response speed by 80%. Optimized PostgreSQL operations using JPA/Hibernate for faster data access and reporting. Drove CI/CD automation through Azure DevOps and Jenkins for containerized deployments on Kubernetes, ensuring faster release cycles and zero downtime. Established observability with Prometheus and Grafana for proactive monitoring and system reliability. Championed engineering excellence through code reviews, mentoring, and achieving 98% automated test coverage with JUnit, Mockito, and Jest, ensuring maintainable, business-aligned software delivery.`,
+    // description: `As a Senior Consultant at Ernst & Young LLP, I led the end-to-end design and delivery of a full-stack shipment tracking platform using Java 17, Spring Boot, and ReactJS on a distributed microservices architecture, empowering logistics teams with real-time visibility and data-driven decision-making. Partnered with product owners to translate business requirements into scalable technical solutions, enhancing the React-based dashboard with Redux and hooks for responsive, timezone-aware analytics. Designed and secured REST APIs with Spring Security and JWT authentication, improving data integrity and cross-service communication. Modernized the backend by adopting reactive WebClient, reducing API latency by 40%, and integrated Redis caching to boost response speed by 80%. Optimized PostgreSQL operations using JPA/Hibernate for faster data access and reporting. Drove CI/CD automation through Azure DevOps and Jenkins for containerized deployments on Kubernetes, ensuring faster release cycles and zero downtime. Established observability with Prometheus and Grafana for proactive monitoring and system reliability. Championed engineering excellence through code reviews, mentoring, and achieving 98% automated test coverage with JUnit, Mockito, and Jest, ensuring maintainable, business-aligned software delivery.`,
+    description: [
+      "Led the design and delivery of a distributed shipment tracking platform using Spring Boot and React, serving ~250K daily active users.",
+      "Migrated REST APIs to GraphQL and introduced Redis caching, reducing latency by up to 80%.",
+      "Implemented event-driven architecture using Kafka with Transactional Outbox and Saga patterns to ensure data consistency across services.",
+      "Optimized PostgreSQL operations using JPA/Hibernate for faster data access and reporting.",
+      "Automated CI/CD pipelines for containerized deployments on Kubernetes and improved system reliability through monitoring with Prometheus and Grafana.",
+      "Mentored team members, conducted code reviews, and ensured 98% automated test coverage with JUnit, Mockito, and Jest."
+    ],
     technologies: ["React.js", "Java", "Spring Boot", "PostgreSQL", "Apache Kafka", "Avro", "Schema Registry","Time Intelligence", "StreamAPI"]
   },
   {
     year: "Sep/2020 - May/2021",
     role: "Senior Developer",
     company: "JK Technosoft Ltd",
-    description: `led the design and development of a robust data processing and reporting platform integrating AWS S3, AWS Lambda, and MySQL to automate large-scale data ingestion, transformation, and storage. I engineered Spring Batch jobs to process S3-hosted CSV data and generate PDF reports with optimized Hibernate interactions, improving database performance and data accuracy. To enhance reliability and reduce integration dependencies, I built secure RESTful APIs with Spring Boot and implemented mock services and automated API testing using REST Assured, cutting integration issues across distributed environments. I deployed containerized microservices with Eureka Server on AWS EKS using Jenkins CI/CD, GitHub, Maven, and AWS ECS, achieving a scalable, fault-tolerant, and production-ready architecture supporting critical business data operations.`,
+    // description: `led the design and development of a robust data processing and reporting platform integrating AWS S3, AWS Lambda, and MySQL to automate large-scale data ingestion, transformation, and storage. I engineered Spring Batch jobs to process S3-hosted CSV data and generate PDF reports with optimized Hibernate interactions, improving database performance and data accuracy. To enhance reliability and reduce integration dependencies, I built secure RESTful APIs with Spring Boot and implemented mock services and automated API testing using REST Assured, cutting integration issues across distributed environments. I deployed containerized microservices with Eureka Server on AWS EKS using Jenkins CI/CD, GitHub, Maven, and AWS ECS, achieving a scalable, fault-tolerant, and production-ready architecture supporting critical business data operations.`,
+    description: [
+      "Developed a Spring Boot–based batch processing system to ingest large CSV files, store in AWS S3, and process over 1M records/day using Spring Batch.",
+      "Engineered reliable batch jobs with Hibernate and MySQL, reducing manual reprocessing and job failures.",
+      "Built secure REST APIs with Spring Boot and implemented automated API testing with REST Assured.",
+      "Deployed containerized microservices using Docker, AWS EKS, Jenkins CI/CD, and GitHub.",
+      "Designed scalable, fault-tolerant architecture to support critical business data operations."
+    ],
     technologies: ["React.js", "Java", "Spring Boot", "AWS", "Spring Batch", "Java Beans", "Data Visualization", "Pagination", "Filtering", "Sorting"]
 
   },
@@ -45,7 +68,14 @@ export const EXPERIENCES = [
     year: "June/2014 - Dec/2019",
     role: "Software Developer",
     company: "Victory Packaging",
-    description: `Collaborated with developers to enhance system improvements, business logic, reports, schema design, and batch processing, ensuring seamless project execution throughout the Software Development Life Cycle. I refactored legacy code and optimized SQL queries using indexing and stored procedures, improving response time by 40%. Additionally, I reduced post-release defects by 40% through comprehensive debugging, rigorous testing, and thorough documentation. These efforts enhanced system performance, reliability, and maintainability, contributing to the overall efficiency of the application and business processes.`,
+    // description: `Collaborated with developers to enhance system improvements, business logic, reports, schema design, and batch processing, ensuring seamless project execution throughout the Software Development Life Cycle. I refactored legacy code and optimized SQL queries using indexing and stored procedures, improving response time by 40%. Additionally, I reduced post-release defects by 40% through comprehensive debugging, rigorous testing, and thorough documentation. These efforts enhanced system performance, reliability, and maintainability, contributing to the overall efficiency of the application and business processes.`,
+    description: [
+      "Developed and maintained backend services using Java and SQL to support core business operations.",
+      "Optimized database queries and stored procedures, improving performance by up to 60%.",
+      "Refactored legacy code, reducing post-release defects by 40% and improving system reliability.",
+      "Implemented batch processing and automated data workflows, enhancing operational efficiency.",
+      "Collaborated with teams to ensure high-quality code and maintainable software solutions."
+    ],
     technologies: ["REST APIs", "Java","SQL", "MSSQL RDS", "Database Sharding", "Automated Data Processing", "Batch Processing", "Performance Monitoring", "SQL Query Optimization"]},
 ];
 
