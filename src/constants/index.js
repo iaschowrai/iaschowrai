@@ -32,7 +32,7 @@ export const EXPERIENCES = [
       "Implemented observability with Prometheus, Grafana, and Spring Boot Actuator for monitoring and proactive incident response.",
       "Participated in code reviews, mentored junior engineers, and maintained high test coverage using JUnit, Mockito, and Cucumber."
     ],
-    technologies: ["Java", "Spring Boot", "RESTful APIs", "GraphQL API", "Elastic Search", "Kafka", "MySQL", "Azure/GCP", "Junit", "Mockito", "Cucumber", "Prometheus", "Grafana", "Kubernetes" ]
+    // technologies: ["Java", "Spring Boot", "RESTful APIs", "GraphQL API", "Elastic Search", "Kafka", "MySQL", "Azure/GCP", "Junit", "Mockito", "Cucumber", "Prometheus", "Grafana", "Kubernetes" ]
   },
   {
     year: "May/2021 - Dec/2021",
@@ -47,7 +47,7 @@ export const EXPERIENCES = [
       "Automated CI/CD pipelines for containerized deployments on Kubernetes and improved system reliability through monitoring with Prometheus and Grafana.",
       "Mentored team members, conducted code reviews, and ensured 98% automated test coverage with JUnit, Mockito, and Jest."
     ],
-    technologies: ["React.js", "Java", "Spring Boot", "PostgreSQL", "Apache Kafka", "Avro", "Schema Registry","Time Intelligence", "StreamAPI"]
+    // technologies: ["React.js", "Java", "Spring Boot", "PostgreSQL", "Apache Kafka", "Avro", "Schema Registry","Time Intelligence", "StreamAPI"]
   },
   {
     year: "Sep/2020 - May/2021",
@@ -61,7 +61,7 @@ export const EXPERIENCES = [
       "Deployed containerized microservices using Docker, AWS EKS, Jenkins CI/CD, and GitHub.",
       "Designed scalable, fault-tolerant architecture to support critical business data operations."
     ],
-    technologies: ["React.js", "Java", "Spring Boot", "AWS", "Spring Batch", "Java Beans", "Data Visualization", "Pagination", "Filtering", "Sorting"]
+    // technologies: ["React.js", "Java", "Spring Boot", "AWS", "Spring Batch", "Java Beans", "Data Visualization", "Pagination", "Filtering", "Sorting"]
 
   },
   {
@@ -76,7 +76,7 @@ export const EXPERIENCES = [
       "Implemented batch processing and automated data workflows, enhancing operational efficiency.",
       "Collaborated with teams to ensure high-quality code and maintainable software solutions."
     ],
-    technologies: ["REST APIs", "Java","SQL", "MSSQL RDS", "Database Sharding", "Automated Data Processing", "Batch Processing", "Performance Monitoring", "SQL Query Optimization"]},
+    // technologies: ["REST APIs", "Java","SQL", "MSSQL RDS", "Database Sharding", "Automated Data Processing", "Batch Processing", "Performance Monitoring", "SQL Query Optimization"]},
 ];
 
 export const PROJECTS = [
@@ -86,7 +86,7 @@ export const PROJECTS = [
     // image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["Java", "Spring Boot", "Spring Cloud", "Spring MVC", "Microservice", "Oauth2", "Spring Security","RestCLient", "Kafka", "MySQL", "MongoDB", "Flyways", 'Docker', "Git"],
+    // technologies: ["Java", "Spring Boot", "Spring Cloud", "Spring MVC", "Microservice", "Oauth2", "Spring Security","RestCLient", "Kafka", "MySQL", "MongoDB", "Flyways", 'Docker', "Git"],
   },
   {
     title: "File Server REST API",
@@ -94,7 +94,7 @@ export const PROJECTS = [
     // image: project2,
     description:
       "The File Server REST API is a Java-based Spring Boot application that provides endpoints for uploading, downloading, and deleting files. It serves as a simple file storage and retrieval system with caching capabilities for improved performance.",
-    technologies: ["Java","Spring Boot","Spring MVC", "Spring Data JPA", "Postman"],
+    // technologies: ["Java","Spring Boot","Spring MVC", "Spring Data JPA", "Postman"],
   },
   {
     title: "Hotel Booking Management System",
@@ -102,7 +102,7 @@ export const PROJECTS = [
     // image: project3,
     description:
               "This is a hotel management booking system built using Spring Boot, Spring Security, JWT Authentication, and MySQL. The system allows users to manage hotel bookings, view available rooms, and make reservations, while providing secure authentication and authorization mechanisms.",
-    technologies: ["Spring Boot" , "Spring Security", "JWT (JSON Web Tokens)", "MySQL", "JPA/Hibernate", "JWT Authentication"],
+    // technologies: ["Spring Boot" , "Spring Security", "JWT (JSON Web Tokens)", "MySQL", "JPA/Hibernate", "JWT Authentication"],
   },
   {
     title: "Portfolio Website",
@@ -110,10 +110,72 @@ export const PROJECTS = [
     // image: project4,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Vite", "Bootstrap", "Tailwind", "Javascript"],
+    // technologies: ["HTML", "CSS", "React", "Vite", "Bootstrap", "Tailwind", "Javascript"],
   },
   
 ];
+
+export const TECHNOLOGIES = [
+  "Java 8 & 17",
+  "Spring Boot",
+  "Spring MVC",
+  "Spring WebFlux",
+  "Spring Security",
+  "Spring Cloud",
+  "Spring Batch",
+  "Microservices Architecture",
+  "RESTful APIs",
+  "GraphQL",
+  "Kafka",
+  "Event-Driven Architecture",
+  "JPA/Hibernate",
+  "MySQL",
+  "PostgreSQL",
+  "MongoDB",
+  "Cassandra",
+  "Redis",
+  "Elasticsearch",
+  "AWS (S3, EC2, Lambda, EKS)",
+  "Azure",
+  "GCP",
+  "Docker",
+  "Kubernetes",
+  "Jenkins",
+  "GitHub Actions",
+  "Terraform",
+  "CloudFormation",
+  "CI/CD Pipelines",
+  "Observability & Monitoring (Prometheus, Grafana, Splunk, ELK Stack)",
+  "Unit & Integration Testing (JUnit, Mockito, Cucumber, Jest)",
+  "React.js",
+  "Redux",
+  "Tailwind CSS",
+  "Bootstrap",
+  "HTML5",
+  "CSS3",
+  "JavaScript",
+  "Python",
+  "JWT Authentication",
+  "OAuth2",
+  "Security Best Practices",
+  "Data Modeling & Optimization",
+  "SQL Query Tuning",
+  "Asynchronous Processing",
+  "Batch Processing",
+  "API Gateway Design",
+  "Containerization",
+  "Production Support & Incident Management",
+  "Performance Tuning",
+  "Automation & DevOps Principles",
+  "Agile Methodologies",
+  "Code Review & Mentoring",
+  "Version Control (Git)",
+  "Software Design Patterns (SOLID, Transactional Outbox, Saga)",
+  "CI/CD Automation",
+  "Cloud-Native Architecture",
+  "Full-Stack Development"
+];
+
 
 
 export const CONTACT = {
