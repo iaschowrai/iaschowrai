@@ -1,6 +1,6 @@
 import React from 'react'
 import './Skills.css';
-import { EXPERIENCES } from '../../../constants/index';
+import { TECHNOLOGIES } from '../../../constants/index';
 
 
 const Skills = () => {
@@ -19,15 +19,22 @@ const Skills = () => {
                 ))}
             </ul> */}
 
-            <div className="skills-container">
-                {EXPERIENCES.map((experience, index) => (
+            {/* <div className="skills-container">
+                {TECHNOLOGIES.map((experience, index) => (
                     <React.Fragment key={index}>
                         {experience.technologies.map((tech, techIndex) => (
                             <span className="skill-badge" key={techIndex}>{tech}</span>
                         ))}
                     </React.Fragment>
                 ))}
+            </div> */}
+
+            <div className="skills-container">
+              {TECHNOLOGIES.map((tech, index) => (
+                <span className="skill-badge" key={index}>{tech}</span>
+              ))}
             </div>
+
 
 
 
