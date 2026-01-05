@@ -9,7 +9,7 @@ const Skills = () => {
 
             <h3 className="h3 skills-title">My skills</h3>
 
-            {/* <ul className="skills-list content-card">
+            <ul className="skills-list content-card">
                 {EXPERIENCES.map((experience, index) => (
                     <React.Fragment key={index}>
                         {experience.technologies.map((tech, techIndex) => (
@@ -17,7 +17,7 @@ const Skills = () => {
                         ))}
                     </React.Fragment>
                 ))}
-            </ul> */}
+            </ul> 
             {/* <div className="skills-container">
                 {TECHNOLOGIES.map((experience, index) => (
                     <React.Fragment key={index}>
@@ -28,11 +28,11 @@ const Skills = () => {
                 ))}
             </div> */}
 
-            <div className="skills-container">
+            {/* <div className="skills-container">
               {TECHNOLOGIES.map((tech, index) => (
                 <span className="skill-badge" key={index}>{tech}</span>
               ))}
-            </div>
+            </div> */}
 
 
 
