@@ -1,6 +1,6 @@
 import React from 'react'
 import './Skills.css';
-import { TECHNOLOGIES } from '../../../constants/index';
+import { EXPERIENCES } from '../../../constants/index';
 
 
 const Skills = () => {
