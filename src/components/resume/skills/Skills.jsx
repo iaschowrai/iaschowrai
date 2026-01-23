@@ -7,13 +7,13 @@ const Skills = () => {
     <section className="skill">
       <h3 className="h3 skills-title">My skills</h3>
 
-      <ul className="skills-list content-card">
+      {/* <ul className="skills-list content-card">
         {TECHNOLOGIES.map((tech, index) => (
           <li className="title" key={index}>
             {tech}
           </li>
         ))}
-      </ul>
+      </ul> */}
 
       {/* Optionally, you can use badges instead of list items */}
       <div className="skills-container">
