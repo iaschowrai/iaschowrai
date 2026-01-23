@@ -1,21 +1,17 @@
-// import project1 from "../assets/pictures/project-1.jpg";
-// import project2 from "../assets/pictures/project-2.png";
-// import project3 from "../assets/pictures/project-3.png";
-// import project4 from "../assets/pictures/project-4.png";
+// src/constants/index.js
 
-export const HERO_CONTENT =  { 
+export const HERO_CONTENT = {
+  p1: `I'm a Software Engineer who thrives on solving complex problems and creating systems that have a real-world impact.
+My journey in tech started with a curiosity to understand how things work behind the scenes, and that curiosity turned into a passion for building efficient, scalable, and reliable solutions.
+I love the challenge of breaking down large, abstract problems and transforming them into something tangible, useful, and efficient.`,
 
-  p1: `I'm a Software Engineer who thrives on solving complex problems and creating systems that have a real-world impact. 
-  My journey in tech started with a curiosity to understand how things work behind the scenes, and that curiosity turned into a passion for building efficient, scalable, and reliable solutions. 
-  I love the challenge of breaking down large, abstract problems and transforming them into something tangible, useful, and efficient.`,
-  
-  p2: `Over the years, I’ve had the opportunity to work on a variety of projects from backend-heavy systems to full-stack solutions, each one offering a unique set of challenges. 
-  What excites me most is the ability to collaborate with others and see an idea evolve into a fully-fledged product that drives real business value. 
-  Whether I'm architecting a new system or optimizing an existing one, I always look for ways to push the boundaries of what’s possible, ensuring that every solution is not just functional, but truly impactful.`
-  }
+  p2: `Over the years, I've had the opportunity to work on a variety of projects from backend-heavy systems to full-stack solutions, each one offering a unique set of challenges.
+What excites me most is the ability to collaborate with others and see an idea evolve into a fully-fledged product that drives real business value.
+Whether I'm architecting a new system or optimizing an existing one, I always look for ways to push the boundaries of what's possible, ensuring that every solution is not just functional, but truly impactful.`
+};
 
 export const RESUMELINK = {
-  resume : "https://drive.google.com/file/d/1Z6c-YnxGrdXeJTxAlesR4uL9z-ku9REv/view?usp=sharing"
+  resume: "https://drive.google.com/file/d/1Z6c-YnxGrdXeJTxAlesR4uL9z-ku9REv/view?usp=sharing"
 };
 
 export const EXPERIENCES = [
@@ -31,7 +27,22 @@ export const EXPERIENCES = [
       "Implemented observability with Prometheus, Grafana, and Spring Boot Actuator for monitoring and proactive incident response.",
       "Participated in code reviews, mentored junior engineers, and maintained high test coverage using JUnit, Mockito, and Cucumber."
     ],
-    technologies: ["Java", "Spring Boot", "RESTful APIs", "GraphQL API", "Elastic Search", "Kafka", "MySQL", "Azure/GCP", "Junit", "Mockito", "Cucumber", "Prometheus", "Grafana", "Kubernetes" ]
+    technologies: [
+      "Java",
+      "Spring Boot",
+      "RESTful APIs",
+      "GraphQL API",
+      "Elastic Search",
+      "Kafka",
+      "MySQL",
+      "Azure/GCP",
+      "JUnit",
+      "Mockito",
+      "Cucumber",
+      "Prometheus",
+      "Grafana",
+      "Kubernetes"
+    ]
   },
   {
     year: "May/2021 - Dec/2021",
@@ -44,7 +55,7 @@ export const EXPERIENCES = [
       "Optimized PostgreSQL operations using JPA/Hibernate for faster data access and reporting.",
       "Automated CI/CD pipelines for containerized deployments on Kubernetes and improved system reliability through monitoring with Prometheus and Grafana.",
       "Mentored team members, conducted code reviews, and ensured 98% automated test coverage with JUnit, Mockito, and Jest."
-    ],
+    ]
   },
   {
     year: "Sep/2020 - May/2021",
@@ -56,8 +67,7 @@ export const EXPERIENCES = [
       "Built secure REST APIs with Spring Boot and implemented automated API testing with REST Assured.",
       "Deployed containerized microservices using Docker, AWS EKS, Jenkins CI/CD, and GitHub.",
       "Designed scalable, fault-tolerant architecture to support critical business data operations."
-    ],
-
+    ]
   },
   {
     year: "June/2014 - Dec/2019",
@@ -69,45 +79,38 @@ export const EXPERIENCES = [
       "Refactored legacy code, reducing post-release defects by 40% and improving system reliability.",
       "Implemented batch processing and automated data workflows, enhancing operational efficiency.",
       "Collaborated with teams to ensure high-quality code and maintainable software solutions."
-    ],
+    ]
+  }
 ];
 
 export const PROJECTS = [
   {
     title: "E-Commerce Website",
     link: "https://github.com/iaschowrai/Ecommerce-Project",
-    // image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+    description: "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication."
   },
   {
     title: "File Server REST API",
     link: "https://github.com/iaschowrai/FileServerWithCaching",
-    // image: project2,
-    description:
-      "The File Server REST API is a Java-based Spring Boot application that provides endpoints for uploading, downloading, and deleting files. It serves as a simple file storage and retrieval system with caching capabilities for improved performance.",
+    description: "The File Server REST API is a Java-based Spring Boot application that provides endpoints for uploading, downloading, and deleting files. It serves as a simple file storage and retrieval system with caching capabilities for improved performance."
   },
   {
     title: "Hotel Booking Management System",
     link: "https://github.com/iaschowrai/HotelBooking",
-    // image: project3,
-    description:
-              "This is a hotel management booking system built using Spring Boot, Spring Security, JWT Authentication, and MySQL. The system allows users to manage hotel bookings, view available rooms, and make reservations, while providing secure authentication and authorization mechanisms.",
+    description: "This is a hotel management booking system built using Spring Boot, Spring Security, JWT Authentication, and MySQL. The system allows users to manage hotel bookings, view available rooms, and make reservations, while providing secure authentication and authorization mechanisms."
   },
   {
     title: "Portfolio Website",
     link: "https://github.com/iaschowrai/iaschowrai",
-    // image: project4,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-  },
+    description: "A personal portfolio website showcasing projects, skills, and contact information."
+  }
 ];
 
 export const CONTACT = {
   name: "Irshad Ahmed Schowrai",
-  address: "1221 E Apache Blvd, Apt 2057, Tempe, Arizona, United States 85281. ",
+  address: "1221 E Apache Blvd, Apt 2057, Tempe, Arizona, United States 85281",
   phoneNo: "+1 774 696 9620",
   email: "irshad_ahmeds@yahoo.com",
-  linkedIn : "https://www.linkedin.com/in/iaschowrai/",
+  linkedIn: "https://www.linkedin.com/in/iaschowrai/",
   github: "https://github.com/iaschowrai/"
 };
