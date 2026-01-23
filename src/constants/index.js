@@ -26,22 +26,6 @@ export const EXPERIENCES = [
       "Deployed containerized services using Docker and Kubernetes with CI/CD pipelines, ensuring seamless releases.",
       "Implemented observability with Prometheus, Grafana, and Spring Boot Actuator for monitoring and proactive incident response.",
       "Participated in code reviews, mentored junior engineers, and maintained high test coverage using JUnit, Mockito, and Cucumber."
-    ],
-    technologies: [
-      "Java",
-      "Spring Boot",
-      "RESTful APIs",
-      "GraphQL API",
-      "Elastic Search",
-      "Kafka",
-      "MySQL",
-      "Azure/GCP",
-      "JUnit",
-      "Mockito",
-      "Cucumber",
-      "Prometheus",
-      "Grafana",
-      "Kubernetes"
     ]
   },
   {
@@ -104,6 +88,20 @@ export const PROJECTS = [
     link: "https://github.com/iaschowrai/iaschowrai",
     description: "A personal portfolio website showcasing projects, skills, and contact information."
   }
+];
+
+export const TECHNOLOGIES = [
+  "Java 8 & 17", "Spring Boot", "Spring MVC", "Spring WebFlux", "Spring Security", "Spring Cloud", "Spring Batch",
+  "Microservices Architecture", "RESTful APIs", "GraphQL", "Kafka", "Event-Driven Architecture", "JPA/Hibernate",
+  "MySQL", "PostgreSQL", "MongoDB", "Cassandra", "Redis", "Elasticsearch", "AWS (S3, EC2, Lambda, EKS)", "Azure",
+  "GCP", "Docker", "Kubernetes", "Jenkins", "GitHub Actions", "Terraform", "CloudFormation", "CI/CD Pipelines",
+  "Observability & Monitoring (Prometheus, Grafana, Splunk, ELK Stack)", "Unit & Integration Testing (JUnit, Mockito, Cucumber, Jest)",
+  "React.js", "Redux", "Tailwind CSS", "Bootstrap", "HTML5", "CSS3", "JavaScript", "Python", "JWT Authentication",
+  "OAuth2", "Security Best Practices", "Data Modeling & Optimization", "SQL Query Tuning", "Asynchronous Processing",
+  "Batch Processing", "API Gateway Design", "Containerization", "Production Support & Incident Management",
+  "Performance Tuning", "Automation & DevOps Principles", "Agile Methodologies", "Code Review & Mentoring",
+  "Version Control (Git)", "Software Design Patterns (SOLID, Transactional Outbox, Saga)", "CI/CD Automation",
+  "Cloud-Native Architecture", "Full-Stack Development"
 ];
 
 export const CONTACT = {
