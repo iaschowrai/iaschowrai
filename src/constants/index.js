@@ -17,7 +17,7 @@ export const RESUMELINK = {
 export const EXPERIENCES = [
   {
     year: "Mar/2024 - Present",
-    role: "Software Engineer",
+    role: "Java Backed Developer",
     company: "Walmart Global Tech - (Wavesoft Solutions Inc.)",
     description: [
       "Designed and developed high-availability Marketplace Pricing & Incentive microservices using Java 17 and Spring Boot, supporting ~300K daily active users.",
