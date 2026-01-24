@@ -11,14 +11,14 @@ Whether I'm architecting a new system or optimizing an existing one, I always lo
 };
 
 export const RESUMELINK = {
-  resume: "https://drive.google.com/file/d/1Z6c-YnxGrdXeJTxAlesR4uL9z-ku9REv/view?usp=sharing"
+  resume: "https://drive.google.com/file/d/1u6GFJn5erwTjae4O0QgFfiDfXWy7CP9J/view?usp=sharing"
 };
 
 export const EXPERIENCES = [
   {
     year: "Mar/2024 - Present",
     role: "Software Engineer",
-    company: "Wavesoft Solutions Inc.",
+    company: "Walmart Global Tech - (Wavesoft Solutions Inc.)",
     description: [
       "Designed and developed high-availability Marketplace Pricing & Incentive microservices using Java 17 and Spring Boot, supporting ~300K daily active users.",
       "Built and optimized GraphQL and REST APIs aggregating data from Elasticsearch and downstream services, achieving ~40ms P99 latency under high load.",
@@ -31,7 +31,7 @@ export const EXPERIENCES = [
   {
     year: "May/2021 - Dec/2021",
     role: "Senior Consultant",
-    company: "Ernst & Young LLP",
+    company: "Microsoft - (Ernst & Young LLP)",
     description: [
       "Led the design and delivery of a distributed shipment tracking platform using Spring Boot and React, serving ~250K daily active users.",
       "Migrated REST APIs to GraphQL and introduced Redis caching, reducing latency by up to 80%.",
@@ -44,7 +44,7 @@ export const EXPERIENCES = [
   {
     year: "Sep/2020 - May/2021",
     role: "Senior Developer",
-    company: "JK Technosoft Ltd",
+    company: "TATA Consulting Service - (JK Technosoft Pvt Ltd)",
     description: [
       "Developed a Spring Boot–based batch processing system to ingest large CSV files, store in AWS S3, and process over 1M records/day using Spring Batch.",
       "Engineered reliable batch jobs with Hibernate and MySQL, reducing manual reprocessing and job failures.",
